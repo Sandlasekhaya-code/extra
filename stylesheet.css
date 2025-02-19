@@ -30,6 +30,35 @@
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
  
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .h1 {
+    font-size: 24px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .h1 {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+}
+
   
  .h1 {
     color: aliceblue;
